@@ -27,7 +27,7 @@ class EdisonSensor(Entity):
         self._password = config['password']
         self._host = config['imap_host']
         self._sift = Sift(config['api_key'], config['api_secret'])
-        self._createUser()
+        self._setup_account()
 
     def _setup_account(self):
         if self._create_user():
