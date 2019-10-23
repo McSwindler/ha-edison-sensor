@@ -1,0 +1,8 @@
+{
+  "domain": "edison",
+  "name": "Edison Email Sensor",
+  "documentation": "https://github.com/McSwindler/ha-edison-sensor",
+  "dependencies": [],
+  "codeowners": ["@McSwindler"],
+  "requirements": ["siftapi==1.1.0"]
+}
