@@ -9,7 +9,7 @@ sensor:
   - platform: edison
     api_key: <<edison api key>>
     api_secret: <<edison api secret>>
-    email_address: user@domain.com
-    imap_host: imap.gmail.com
+    email: user@domain.com
+    host: imap.gmail.com
     password: <<imap password>>
 ```
