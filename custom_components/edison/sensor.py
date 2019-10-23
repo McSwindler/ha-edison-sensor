@@ -59,7 +59,7 @@ class EdisonSensor(Entity):
 
     @property
     def name(self):
-        return 'edison_{}'.format(self._nice_name
+        return 'Edison {}'.format(self._email)
 
     @property
     def state(self):
@@ -74,5 +74,5 @@ class EdisonSensor(Entity):
         return 'mdi:email'
 
     def update(self):
-        response=self._sift.get_sifts(self._nice_name)
-        self._state=len(response['results'])
+        response = self._sift.get_sifts(self._nice_name)
+        self._state = len(response['results'])

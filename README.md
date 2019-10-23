@@ -10,6 +10,6 @@ sensor:
     api_key: <<edison api key>>
     api_secret: <<edison api secret>>
     email_address: user@domain.com
-    imap_host: imap.google.com
+    imap_host: imap.gmail.com
     password: <<imap password>>
 ```
